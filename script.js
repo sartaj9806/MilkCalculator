@@ -2,6 +2,7 @@ let full = document.querySelector(".full-cream input");
 const cow = document.querySelector(".cow-milk input");
 let bacha = document.querySelector(".bachha input");
 let dahi = document.querySelector(".dahi input");
+let dahi35 = document.querySelector(".dahi35 input");
 let chach = document.querySelector(".chach input");
 let bread10 = document.querySelector(".bread10 input");
 let bread20 = document.querySelector(".bread20 input");
@@ -43,11 +44,12 @@ function calculate() {
     const cowP = cow.value * 28.5 * 2;
     const bachaP = bacha.value * 9;
     const dahiP = dahi.value * 18;
+    const dahi35P = dahi35.value * 34;
     const chachP = chach.value * 9.5;
     const bread10P = bread10.value * 9;
     const bread20P = bread20.value * 18;
 
-    let total = fullP + cowP + bachaP + dahiP + chachP + bread10P + bread20P;
+    let total = fullP + cowP + bachaP + dahiP + dahi35P + chachP + bread10P + bread20P;
 
     document.querySelector(".display").innerHTML = `Rs ${total}`;
     itemList.style.display = "flex";
