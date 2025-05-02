@@ -40,8 +40,8 @@ close.addEventListener('click', () => {
 })
 
 function calculate() {
-    const fullP = full.value * 33.5 * 2;
-    const cowP = cow.value * 28.5 * 2;
+    const fullP = full.value * 34.5 * 2;
+    const cowP = cow.value * 29.5 * 2;
     const bachaP = bacha.value * 9;
     const dahiP = dahi.value * 18;
     const dahi35P = dahi35.value * 34;
