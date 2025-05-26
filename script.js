@@ -43,7 +43,7 @@ function calculate() {
     const fullP = full.value * 34.5 * 2;
     const cowP = cow.value * 29.5 * 2;
     const bachaP = bacha.value * 9;
-    const dahiP = dahi.value * 18;
+    const dahiP = dahi.value * 19;
     const dahi35P = dahi35.value * 34;
     const chachP = chach.value * 9.5;
     const bread10P = bread10.value * 9;
